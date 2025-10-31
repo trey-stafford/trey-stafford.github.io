@@ -1,10 +1,12 @@
 project:
   type: website
+  resources: "images"
 
 website:
   title: "Trey Stafford"
   navbar:
-    left: []
+    left:
+      - href: "blog/index.qmd"
 
 format:
   html:
